@@ -18,7 +18,7 @@ module.exports = [
 
   {
     item_name: 'Savings',
-    amount: -500,
+    amount: -500.00,
     date: 'July 2',
     from: 'bank',
     category: 'savings',
@@ -26,7 +26,7 @@ module.exports = [
   },
   {
     item_name: 'Cell phone',
-    amount: -70,
+    amount: -70.00,
     date: 'July 15',
     from: 'T-Mobile',
     category: 'phone',
@@ -34,7 +34,7 @@ module.exports = [
   },
   {
     item_name: 'Grocery haul',
-    amount: -200,
+    amount: -164.80,
     date: 'July 15',
     from: 'grocery store',
     category: 'food',
@@ -42,11 +42,43 @@ module.exports = [
   },
   {
     item_name: 'Fuel',
-    amount: -60,
+    amount: -60.32,
     date: 'July 25',
     from: 'gas station',
     category: 'vehicle',
     type: 'expense',
+  },
+  {
+    item_name: 'Uber',
+    amount: -27.12,
+    date: 'July 15',
+    from: 'Uber',
+    category: 'transportation',
+    type: 'expense',
+  },
+  {
+    item_name: 'Bed sheets',
+    amount: -69.99,
+    date: 'July 25',
+    from: 'Kohls',
+    category: 'Home',
+    type: 'expense',
+  },
+  {
+    item_name: 'Mets game',
+    amount: -125.50,
+    date: 'July 27',
+    from: 'Citi Field',
+    category: 'Entertainment',
+    type: 'expense',
+  },
+  {
+    item_name: 'Allowance',
+    amount: 100,
+    date: 'July 27',
+    from: 'Mom',
+    category: 'allowance',
+    type: 'income',
   },
 ];
 
